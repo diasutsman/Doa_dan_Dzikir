@@ -33,7 +33,9 @@
         app:cardCornerRadius="15dp"
         app:cardElevation="4dp"
         app:layout_constraintBottom_toTopOf="@id/cv_dzikir_petang"
-        app:layout_constraintTop_toBottomOf="@id/tv_txt_pagi_petang">
+        app:layout_constraintTop_toBottomOf="@id/tv_txt_pagi_petang"
+        app:layout_constraintVertical_chainStyle="spread"
+        tools:layout_editor_absoluteX="16dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -82,6 +84,7 @@
         app:cardElevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cv_dzikir_pagi">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
